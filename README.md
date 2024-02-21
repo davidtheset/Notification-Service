@@ -24,7 +24,11 @@ The system should be able to:
 Languaje and framework:
 The exercise includes a base implementation in Go using the Gin framework and unit tests.
 
-## Architecture diagram
+## Project Architecture
+In this project, we employ Clean Architecture to ensure that our system is decoupled, maintainable, and scalable. Clean Architecture centers around the separation of concerns, organizing the system into layers that each have distinct responsibilities. This approach allows for greater flexibility in terms of testing, development, and maintenance.
+![Diagrama de Arquitectura](images/clean-architecture.png)
+
+## Process diagram
 ![Diagrama de Arquitectura](images/architecture-diagram.png)
 
 ## Running Tests
