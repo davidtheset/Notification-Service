@@ -15,7 +15,6 @@ NOTES:
 - Feel free to use the programming language, frameworks, technologies, etc that you feel more comfortable with.
 - Below you'll find a code snippet that can serve as a guidance of one of the implementation alternatives in Java. Feel free to use it if you find it useful or ignore it otherwise; it is not required to use it at all nor translate this code to your programming language.
 
-
 The system should be able to:
 
 1. Receive requests to send notifications.
@@ -25,9 +24,13 @@ The system should be able to:
 Languaje and framework:
 The exercise includes a base implementation in Go using the Gin framework and unit tests.
 
+## Architecture diagram
+![Diagrama de Arquitectura](images/architecture-diagram.png)
+
 ## Running Tests
 
 To run the unit tests, use the following command:
 
 ```bash
 go test ./test
+
